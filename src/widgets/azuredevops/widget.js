@@ -6,11 +6,11 @@ const widget = {
 
   mappings: {
     pr: {
-      endpoint: "git/repositories/{repositoryId}/pullrequests"
+      endpoint: "git/repositories/{repositoryId}/pullrequests",
     },
-    
+
     pipeline: {
-      endpoint: "build/Builds?branchName={branchName}&definitions={definitionId}&$top=1"
+      endpoint: "build/Builds?branchName={branchName}&definitions={definitionId}",
     },
   },
 };
